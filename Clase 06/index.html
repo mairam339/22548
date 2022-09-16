@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/estilo.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id= "centrado">
+
+        <h1>Formulario de Ingreso</h1>
+        <h2>Formulario de Ingreso</h2>
+        <h1>Formulario de Ingreso</h1>
+
+        <form action="#" method="post">
+
+        <fieldset>
+            <legend>Ingreso</legend>
+            <label for ="nombre"> Nombre:</label>
+
+            <input type="Text" id="Nombre" name="nombre" placeholder="Aqui su nombre" maxlength="20" minlength="2" >
+            <br>
+            <br>
+            <label for="Apellido">Apellido:</label>
+            <input type="text" id="Apellido" name="Apellido" placeholder="Aqui su nombre" maxlength="20" minlength="2" readonly ="true" value="Fernandez">
+            <br>
+            <br>
+            <label for="pass">Password: </label>
+            <input type="password" pattern="" placeholder="" id="" name="" >
+
+            <br>
+            <br>
+            <label for=""> Edad: </label>
+            <input type="number" max="99" min="18" name="" id="" placeholder="" disabled value="25">
+            <br>
+            <br>
+            <label>fecha.nac: </label>
+            <input type="date" placeholder="" id="" name="">
+ 
+
+        </fieldset>
+
+    <br>
+    <br>
+    <br>
+
+<fieldset>
+
+    <legend>Provincias</legend>
+    <label for="">Provincia</label>
+    <select>
+<option value="1"> Buenos Aires </option>
+<option value="2"> Cordoba </option>
+<option value="3"> Salta </option>
+
+    </select>
+
+    <br>
+    <br>
+    <br>
+    <label for="">Auto </label>
+    <select>
+<optgroup label="Nacional">
+ <option value="1"> Fiat </option>
+ <option value="2"> Renault </option>
+ <option value="3"> Ford </option>
+</optgroup>
+
+<optgroup label="Importado">
+    <option value="1"> BMW</option>
+    <option value="1"> Ferrari </option>
+    <option value="1"> Audi </option>
+
+</optgroup>
+    </select>
+    <br>
+    <br>
+    <label>Elija color: </label>
+    <input type="color">
+    <br>
+    <br>
+
+    <fieldset>
+        <legend> Lenguajes </legend>
+        <label> PHP: 
+            <input type="Checkbox" value="1" id="" name="PHP">
+        </label>
+        <label> NET:
+            <input type="Checkbox" value="2" id="" name="NET">
+        </label>
+        <label> JAVA: 
+            <input type="Checkbox" value="3" id="" name="JAVA">
+        </label>
+
+</fieldset>
+<fieldset>
+    <legend>Mascotas </legend>
+    <label>Perro 
+        <input type="radio" value="" id="" name="Mascota">
+    </label>
+    <label>Gato 
+        <input type="radio" value="" id="" name="Mascota">
+    </label>
+    <label>Loro
+        <input type="radio" value="" id="" name="Mascota">
+    </label>
+
+
+</fieldset>
+<br>
+<br>
+<br>
+
+
+<fieldset>
+     <legend>Text Area </legend>
+<textarea id="w3review" name="w3review" rows="4" cols="50">AT w3review
+</textarea>
+<br>
+<br>
+<label>Borrar inputs</label>
+<input type="reset">
+</fieldset>
+<button class="Button" type="submit"> Enviar</button>
+
+        
+    </form>
+    </div>
+    </body>
+</html>

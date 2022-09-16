@@ -1,0 +1,56 @@
+
+
+.textosH1
+{
+    color: green;
+    text-decoration: overline;
+}
+
+#textoH1
+{
+    color: red;
+}
+h1
+{
+    color: blue;
+}
+
+body
+{
+    background-color: lightblue;
+    background-image: url(../img/moda.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+
+.claseP
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    word-spacing: 40px;
+    color: darkmagenta;
+    text-transform: capitalize;
+
+}
+
+p
+{
+    border-top-style: dotted;
+    border-bottom-style: solid ;
+    border-width: 5px;
+
+}
+
+.Boton
+{
+   text-decoration: none;
+   border= none;
+   background-color: brown;
+   font-size: 16px;
+   display: inline-block;
+   
+
+
+}

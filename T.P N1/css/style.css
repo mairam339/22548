@@ -1,0 +1,23 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+header
+{ 
+    background-color: lightgray;
+    font-size: 15px;
+    color: blueviolet;
+    text-align: right;
+
+}
+main
+{
+    padding-left: 200px;
+}
+footer
+{
+    background-color: lightgray;
+    font-size: 15px;
+    text-align: center;
+}

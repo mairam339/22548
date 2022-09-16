@@ -1,0 +1,22 @@
+#centrado
+{
+    max-width: 500px;
+    margin: auto;
+}
+
+
+fieldset
+{
+ background-color: blueviolet;
+ max-width: 500px;
+
+}
+h1{text-align: center;color: red;}
+h2{color: blue; text-align: center;} 
+
+button{
+    background-color: rgb(127, 136, 255);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+}

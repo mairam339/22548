@@ -1,0 +1,81 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+div
+{
+    
+    width: 100%;
+    height: 200px;
+}
+
+#uno
+{
+    background-color: violet;
+}
+#dos
+{
+    background-color: blue;
+}
+#tres
+{
+    background-color: coral;
+}
+#uno, #dos, #tres
+{
+    width: 100%;
+    height: 200px;
+}
+
+section ~ p
+{
+    /*color: red;*/
+}
+
+div > p
+{
+/*: green;*/
+
+}
+
+#claseHover
+{
+    width: 80%;
+    height: 200px;
+    background-color: red;
+
+}
+
+#claseHover :hover
+{
+    background-color: lightcoral;
+}
+
+
+p:first-child
+{
+    color: green;
+}
+a{
+    text-decoration: none;
+}
+
+a :hover
+{  
+ color: green;
+
+}
+
+a:visited
+{
+    color: yellow;
+}
+
+a:active
+{
+color: blueviolet;
+
+}

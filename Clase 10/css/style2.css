@@ -1,0 +1,32 @@
+
+#cuadro1
+{
+    height: 250px;
+    width: 250px;
+    background-color: red;
+    padding-top: 50px;
+}
+#cuadro2
+{
+    box-sizing: border-box;
+    height: 250px;
+    width: 250px;
+    background-color: red;
+    border: 20px;
+    border-color:;
+    border-style: solid;
+}
+#cuadro3
+{
+    box-sizing: border-box;
+    height: 250px;
+    width: 250px;
+    background-color:red ;
+    border: 20px;
+    border-color: #060;
+    border-style: solid;
+}
+p
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
